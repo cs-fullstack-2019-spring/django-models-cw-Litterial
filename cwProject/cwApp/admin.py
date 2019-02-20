@@ -4,5 +4,6 @@ from django.contrib import admin
 from .models import Dog
 from .models import newAccount
 
+#puts class on admin page
 admin.site.register(Dog)
 admin.site.register(newAccount)
